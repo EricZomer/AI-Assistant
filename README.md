@@ -3,7 +3,7 @@
 ## Overview
 A project to setup an AI assistant to chat with, which responds to you with audio. Using Open AI but eventually will integrate with locally installed AI programs as well.
 
-The project will create an audio clip from your microphone and call OpenAI Whisper to generate text from it. That text is used to call Chat-GPT 3.5, and the returned text is then sent to OpenAI TTS which generates an audio clip from the response.
+The project will let you record an audio clip with your microphone and call OpenAI Whisper to generate text from it. That text is used to call Chat-GPT 3.5, and the returned text is then sent to OpenAI TTS which generates an audio clip from the response.
 
 I have limited it to a single question/response per run right now, just to avoid generating too many requests to Open AI at once.
 
